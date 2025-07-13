@@ -165,7 +165,9 @@ HBRUSH PhThemeWindowBackgroundBrush = NULL;
 COLORREF PhThemeWindowForegroundColor = RGB(28, 28, 28);
 COLORREF PhThemeWindowBackgroundColor = RGB(43, 43, 43);
 COLORREF PhThemeWindowBackground2Color = RGB(65, 65, 65);
-COLORREF PhThemeWindowHighlightColor = RGB(128, 128, 128);
+// Default highlight color used across controls (e.g. list selections)
+// Changed from grey to green
+COLORREF PhThemeWindowHighlightColor = RGB(0, 255, 0);
 COLORREF PhThemeWindowHighlight2Color = RGB(143, 143, 143);
 COLORREF PhThemeWindowTextColor = RGB(255, 255, 255);
 

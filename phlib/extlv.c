@@ -302,6 +302,8 @@ LRESULT CALLBACK PhpExtendedListViewWndProc(
                                 if (selected)
                                 {
                                     customDraw->clrText = PhThemeWindowTextColor;
+                                    // Set highlight background to the theme highlight color
+                                    customDraw->clrTextBk = PhThemeWindowHighlightColor;
                                 }
                                 else if (colorChanged)
                                 {
