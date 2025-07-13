@@ -251,7 +251,8 @@ VOID PhAddDefaultSettings(
     PhpAddIntegerSetting(L"ThemeWindowForegroundColor", L"1c1c1c"); // RGB(28, 28, 28)
     PhpAddIntegerSetting(L"ThemeWindowBackgroundColor", L"2b2b2b"); // RGB(43, 43, 43)
     PhpAddIntegerSetting(L"ThemeWindowBackground2Color", L"414141"); // RGB(65, 65, 65)
-    PhpAddIntegerSetting(L"ThemeWindowHighlightColor", L"808080"); // RGB(128, 128, 128)
+    // Default highlight color for selected list items
+    PhpAddIntegerSetting(L"ThemeWindowHighlightColor", L"00ff00"); // RGB(0, 255, 0)
     PhpAddIntegerSetting(L"ThemeWindowHighlight2Color", L"8f8f8f"); // RGB(143, 143, 143)
     PhpAddIntegerSetting(L"ThemeWindowTextColor", L"ffffff"); // RGB(255, 255, 255)
     PhpAddIntegerSetting(L"ThinRows", L"0");
